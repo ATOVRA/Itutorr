@@ -17,7 +17,12 @@
 .profile-menu-section{
     width: max-content;
 }
-
+.profile-page-title{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    opacity: 0.5;
+}
 .profile-menu-div{
     background-color: #fff;
 }
