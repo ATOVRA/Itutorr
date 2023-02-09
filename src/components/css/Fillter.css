@@ -1,0 +1,128 @@
+.fillter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.item-fillter {
+    width: 90%;
+}
+
+.title-fillter {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.title-fillter h3 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+.main-fillter {
+    width: 100%;
+    margin: 100px 0px;
+    display: flex;
+}
+
+
+
+/* fillter saidbar  */
+
+.fillter-saidbar {
+    width: 25%;
+    height: 150vh;
+    border: 1px solid green;
+}
+
+.main-fillter-saidbar {
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+}
+
+
+
+
+/* main-fillter-all-sections */
+.main-fillter-all-sections {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.map {
+    width: 96%;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map img {
+    width: 100%;
+    border-radius: 30px;
+    height: 100%;
+}
+
+.ittesxnology {
+    width: 100%;
+    display: grid;
+    padding: 0px 20px;
+    gap: 48px;
+    grid-template-columns: 30% 30% 30%;
+}
+
+
+
+/* search-in-fillter  */
+.search-in-fillter {
+    width: 96%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    border-radius: 15px;
+    background: #fff;
+}
+
+.search-in-fillter span {
+    color: gray;
+}
+
+
+
+.pagination-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: end;
+    gap: 10px;
+}
+
+.pagination-buttons button {
+    width: 50px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #F6B940;
+    border: none;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.pagination-buttons span {
+    font-size: 2rem;
+    color: #F6B940;
+}

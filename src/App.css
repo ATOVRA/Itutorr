@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Roboto;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    display: none;
+    background-color: #5B406A;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+body {
+    background: #5B406A;
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+}
+
+.header-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 140px;
+}
+
+header {
+    width: 91%;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+}
+
+nav .brand-logo img {
+    width: 160px;
+    aspect-ratio: 1/1;
+
+}
+
+header nav ul {
+    display: flex;
+    gap: 70px;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+
+#select-language {
+    width: 70px;
+    background-color: #5B406A;
+    outline: none;
+    border: none;
+    transition: .3s;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.dark-and-white-mode {
+    width: 150px;
+    height: 38px;
+    background-color: #776083;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    cursor: pointer;
+
+}
+
+.mode-all {
+    width: 45px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.dark {
+    font-size: 2rem;
+    color: #5B406A;
+}
+
+.white {
+    display: none;
+    font-size: 2rem;
+}
+
+/* massage-and-provite-mode-container */
+
+.massage-and-provite-room-container {
+    display: flex;
+    width: 20%;
+    /* border: 1px solid black; */
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.provite-room-container {
+    width: 70%;
+    height: 45px;
+    border-radius: 40px;
+    background-color: #776083;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.provite-room-container h4 {
+    font-weight: 400;
+    color: #fff;
+}
+
+.massage-container {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.massage-container img {
+    width: 35px;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.massage-container span {
+    position: absolute;
+    top: -6px;
+    right: 27px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    background-color: rgb(255, 183, 0);
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* footer-main */
+.footer-main {
+    /* position: absolute; */
+    width: 100%;
+    height: 300px;
+    /* bottom: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position: relative;
+    width: 95%;
+    display: flex;
+    height: 70%;
+    gap: 120px;
+    align-items: start;
+    padding-left: 40px;
+}
+
+
+/* footer main style  */
+
+footer h3 {
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer ol {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+footer ol li {
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+/* .brand-footer */
+.brand-footer {
+    width: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+
+.brand-footer img {
+    width: 120px;
+    aspect-ratio: 1/1;
+}
+
+
+.brand-footer p {
+    margin-top: -20px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.footer-social-media {
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+.footer-social-media i {
+    width: 30px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    background-color: #6B539A;
+    border-radius: 50%;
+    color: #fff;
+}
+
+
+
+
+.footer-img {
+    position: absolute;
+    top: -70px;
+    right: 0;
+}
+
+.footer-img img {
+    width: 400px;
+}
