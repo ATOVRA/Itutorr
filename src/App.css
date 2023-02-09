@@ -13,12 +13,13 @@
     display: none;
     background-color: #5B406A;
 }
-
 ::-webkit-scrollbar-thumb {
     background-color: #fff;
     border-radius: 50px;
 }
-
+::-webkit-scrollbar-thumb:hover {
+    background-color: #907b9b;
+}
 body {
     background: #5B406A;
     width: 100%;

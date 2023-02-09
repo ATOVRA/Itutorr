@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profil-page-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.profile-page-container{
+    width: 85%;
+    height: auto;
+    border: 1px solid #fff;
+}
+.profile-menu-section{
+    width: max-content;
+}
+
+.profile-menu-div{
+    background-color: #fff;
+}
