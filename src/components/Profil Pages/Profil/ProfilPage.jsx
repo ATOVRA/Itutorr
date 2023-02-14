@@ -4,7 +4,7 @@ import { Header } from "../../Header/Header";
 import ProfileAvatar from "../../../Images/profile-avatar.png";
 import { MdModeEdit, MdClear, MdOutlineAdd } from "react-icons/md";
 import Footer from "../../home/Footer";
-import { NavLink, Route, Routes } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export const ProfilPage = () => {
   return (

@@ -3,7 +3,6 @@ import { NavLink, Link } from 'react-router-dom'
 
 export const Header = () => {
   const [darkMode, setDarkMode] = useState(false)
-  let boolen = false
 
   const DarkModeClick = () => {
    setDarkMode(!darkMode)
